@@ -27,9 +27,9 @@ public class ex6 {
 
 	public static boolean verificardorMultipNunConsec(int valorBase) {
 
-		for (int i = 1; i < valorBase; i++) {
-			for (int j = 1; j < valorBase; j++) {
-				if (valorBase == (Math.pow(1, 2))) {
+		for (int i = 0; i < valorBase; i++) {
+			for (int j = 0; j < valorBase; j++) {
+				if (valorBase == (Math.pow(j, i))) {
 					System.out.println(j + "^" + i + " = " + (Math.pow(j, i)));
 					return true;
 				}
